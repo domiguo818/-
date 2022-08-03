@@ -12,3 +12,16 @@ export function login(data) {
     data,
   });
 }
+
+export function getUserInfo() {
+  return request({
+    url: "/sys/profile",
+    method: "post",
+  });
+}
+
+export function getUserDetails(id) {
+  return request({
+    url: "/sys/user/"+id,
+  });
+}
