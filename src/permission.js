@@ -4,8 +4,8 @@ const whiteList = ["/login", "/404"];
 
 router.beforeEach((to, from, next) => {
   const token = store.state.user.token;
-  console.log(token);
-  console.log(to.path);
+  // console.log(token);
+  // console.log(to.path);
   if (token) {
     //   1.登录
     // 是否进入登录页面

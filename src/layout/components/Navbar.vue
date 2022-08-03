@@ -16,7 +16,7 @@
       <el-dropdown class="avatar-container" trigger="click">
         <div class="avatar-wrapper">
           <img
-            :src="$store.state.user.userInfo.staffPhoto + '13'"
+            :src="$store.state.user.userInfo.staffPhoto"
             class="user-avatar"
             v-imgError="defaultImg"
           />
