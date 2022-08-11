@@ -15,6 +15,8 @@ import router from "./router";
 import "@/icons"; // icon
 import "@/permission"; // permission control
 import * as directives from "@/directives";
+import components from "@/components";
+Vue.use(components)
 
 //
 if (process.env.NODE_ENV === "production") {
